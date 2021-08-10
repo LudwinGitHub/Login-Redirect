@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="loginRedirect:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>loginRedirect</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="loginRedirect-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="loginRedirect:war exploded" />
+    </root>
+  </artifact>
+</component>
