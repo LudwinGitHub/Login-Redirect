@@ -16,7 +16,7 @@ public class LoginServlet extends HttpServlet {
             request.getSession().setAttribute("username", username);
             response.sendRedirect("admin");
         } else {
-            response.sendRedirect("error.html");
+            response.sendRedirect("error.jsp");
         }
     }
 }
